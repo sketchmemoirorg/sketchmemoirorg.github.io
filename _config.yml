@@ -27,7 +27,7 @@ plugins:
   - jekyll-paginate
 
 disqus:
-  shortname: nageshdn
+  shortname: xyz
 
 google_analytics: 
 
