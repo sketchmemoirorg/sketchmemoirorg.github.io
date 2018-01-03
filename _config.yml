@@ -3,10 +3,10 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            NAGESH D N
+title:            Sketch Memoir
 tagline:          ''
 description:      'Blog'
-url:              https://ndn97.github.io
+url:              https://sketchmemoirorg.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -14,8 +14,8 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Nagesh'
-  url:            https://twitter.com/ndn9797
+  name:           'Sudharshini'
+  url:            https://twitter.com/xyz
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -29,7 +29,7 @@ plugins:
 disqus:
   shortname: nageshdn
 
-google_analytics: UA-111754253-1
+google_analytics: 
 
 # Custom vars
 
@@ -40,4 +40,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/ndn97.github.io
+  repo:             https://github.com/sketchmemoirorg.github.io
