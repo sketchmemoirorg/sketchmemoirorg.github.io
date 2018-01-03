@@ -12,4 +12,4 @@ deploy:
   region: ap-south-1
   skip_cleanup: true
   on:
-    repo: ndn97/ndn97.github.io
+    repo: sketchmemoirorg/sketchmemoirorg.github.io
