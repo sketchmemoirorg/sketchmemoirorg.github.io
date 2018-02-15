@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Sketch Memoir
-tagline:          ''
+title:            SketchMemoir
+tagline:          'Today is Bliss, tomorrow is Untold, Embrace life as it comes!'
 description:      'Blog'
 url:              https://sketchmemoirorg.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
@@ -14,8 +14,8 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Sudharshini'
-  url:            https://twitter.com/xyz
+  name:           'Sudharshini M H'
+  url:            https://www.linkedin.com/in/sudharshini-m-h-53a9a849/ | Twitter: iWhiz @Sudharshinimh 
 
 paginate:         5
 # paginate_path:    '/page:num'
