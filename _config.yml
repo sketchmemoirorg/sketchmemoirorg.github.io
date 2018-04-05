@@ -16,7 +16,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
 author:
   name:           'Sudharshini M H'
   email:          'sudharshini.mh@gmail.com'
-  url:            'https://www.linkedin.com/in/sudharshini-m-h-53a9a849/ | Twitter: iWhiz @Sudharshinimh'
+  url:            'https://www.linkedin.com/in/sudharshini-m-h-53a9a849/'' | ''Twitter: iWhiz @Sudharshinimh'
 
 paginate:         5
 # paginate_path:    '/page:num'
