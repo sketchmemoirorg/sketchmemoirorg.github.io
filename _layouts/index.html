@@ -1,42 +1,58 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="content">
-  {% include pagination-newer.html %}
+<html>
+  <head>
+	<meta name="generator" content="Hugo 0.49.2" />
+    <title>Sketchmemoir</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="http://www.sketchmemoir.com/css/main.css" type="text/css"/>
+    
+    
+    <noscript><link rel="stylesheet" href="http://www.sketchmemoir.com/css/noscript.css" /></noscript>
+  </head>
+  <body>
 
-  {{ content }}
+    
+      <div id="wrapper">
 
-  {% for post in paginator.posts %}
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    {% include post-meta.html post=post %}
+        
+          <section id="main">
 
-    {% if post.excerpt %}
-      {{ post.excerpt }}
-    {% else %}
-      {{ post.content }}
-    {% endif %}
 
-    {% if post.excerpt %}
-      {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
-      {% capture content_words %}
-        {{ post.content | number_of_words }}
-      {% endcapture %}
-      {% capture excerpt_words %}
-        {{ post.excerpt | number_of_words }}
-      {% endcapture %}
+<header>
+  <span class="avatar"><img src="_screenshot/blog3.jpg" srcset="_screenshot/blog3.jpg" alt="Portrait of Sudharshini" width="200" height="200"/></span>
+  <h1>Sudharshini</h1>
+  <p>
+    IT Professional<br/>
+    Bangalore, India<br/>
 
-      {% if content_words != excerpt_words %}
-        <a href="{{ site.baseurl }}{{ post.url }}">More &hellip;</a>
-      {% endif %}
-    {% endif %}
-  </article>
-  {% endfor %}
+    <img src="http://www.sketchmemoir.com/images/DE.png" alt="German Flag" width="16" height="16" />
+  </p>
+</header>
 
-  {% include pagination-older.html %}
-</div>
+<footer>
+  <ul class="icons">
+    <li><a href="https://twitter.com/Sudharshinimh" class="fa-twitter">Twitter</a></li>
+    <li><a href="https://github.com/sudharshini.mh" class="fa-github">Github</a></li>
+  </ul>
+</footer>
+
+          </section>
+
+        
+          <footer id="footer">
+            <ul class="copyright">
+              <li>&copy; Sudharshinimh</li>
+              <li><a href="http://www.sketchmemoir.com/imprint">Imprint</a></li>
+              <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </footer>
+
+      </div>
+
+    
+      
+
+  </body>
+</html>
